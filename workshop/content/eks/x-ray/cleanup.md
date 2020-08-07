@@ -22,9 +22,10 @@ kubectl delete services x-ray-sample-front-k8s x-ray-sample-back-k8s
 Delete the X-Ray DaemonSet:
 
 ```
-kubectl delete -f https://eksworkshop.com/x-ray/daemonset.files/xray-k8s-daemonset.yaml
+kubectl delete -f https://eksworkshop.com/intermediate/245_x-ray/daemonset.files/xray-k8s-daemonset.yaml
 ```
 
+Delete the IAM Service Account:
 ```
-aws iam detach-role-policy --role-name $ROLE_NAME --policy-arn arn:aws:iam::aws:policy/AWSXRayDaemonWriteAccess
+eksctl delete iamserviceaccount --name xray-daemon --cluster EKS-Lab
 ```

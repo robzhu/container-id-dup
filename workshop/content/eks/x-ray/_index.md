@@ -1,8 +1,13 @@
 ---
 title: "Tracing with X-Ray"
 chapter: true
-weight: 46
+weight: 245
 draft: false
+tags:
+  - advanced
+  - operations
+  - monitoring
+  - CON205
 ---
 
 As [distributed systems](https://en.wikipedia.org/wiki/Distributed_computing) evolve, monitoring and debugging services becomes challenging. Container-orchestration platforms like Kubernetes solve a lot of problems, but they also introduce new challenges for developers and operators in understanding how services interact and where latency exists. [AWS X-Ray](https://aws.amazon.com/xray/) helps developers analyze and debug distributed services.
