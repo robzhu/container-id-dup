@@ -4,7 +4,7 @@ date = 2019-10-28T15:13:26+11:00
 weight = 2
 +++
 
-For this lab, we need to switch to the other **AWS Cloud9** workspace that was created. Let's get started by launching the **AWS Cloud9** console: [AWS Cloud9 console AP-SOUTHEAST-2](https://ap-southeast-2.console.aws.amazon.com/cloud9/home?region=ap-southeast-2)
+For this lab, we need to switch to the other **AWS Cloud9** workspace that was created. Let's get started by launching the **AWS Cloud9** console: [AWS Cloud9 console](https://console.aws.amazon.com/cloud9/)
 
 1. Find the workspace named "Project-***STACK_NAME***":
 

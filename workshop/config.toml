@@ -1,14 +1,14 @@
-RelativeURLs=true
-CanonifyURLs=true
+relativeURLs = true
+canonifyURLs = true
 languageCode = "en-US"
 defaultContentLanguage = "en"
 
-title = "AWS Container Day"
+title = "AWS Container Immersion Day"
 theme = "learn"
 metaDataFormat = "yaml"
 defaultContentLanguageInSubdir= true
 
-uglyurls = true
+uglyurls = false
 sectionPagesMenu = "main"
 pygmentsCodeFences = true
 pygmentsStyle = "monokai"
@@ -40,7 +40,7 @@ hrefTargetBlank = true
 
 [Languages]
 [Languages.en]
-title = "AWS Container Day"
+title = "AWS Container Immersion Day"
 weight = 1
 languageName = "English"
 

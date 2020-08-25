@@ -1,5 +1,5 @@
 +++
-title = "AWS Container Day Workshop Setup"
+title = "AWS Container Immersion Day Workshop Setup"
 date = 2019-10-28T11:39:26+11:00
 weight = 1
 chapter = true
