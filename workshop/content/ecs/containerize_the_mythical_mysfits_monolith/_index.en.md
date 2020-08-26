@@ -212,9 +212,7 @@ The Mythical Mysfits adoption agency infrastructure has always been running dire
 
     Click on the plus sign next to your tabs and choose **New Terminal** or click **Window** -> **New Terminal** from the Cloud9 menu to open a new shell session to run the following curl command.
 
-    
         curl http://localhost:8000/mysfits
-
 
     You should see a JSON array with data about a number of Mythical Mysfits.
 
